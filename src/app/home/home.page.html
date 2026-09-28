@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Aplikasi Gue</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding ion-text-center">
+  <h1>🔥 Halo Bro!</h1>
+  <p>Ini jalan di {{ platform }} loh</p>
+
+  <h2 style="font-size: 80px; margin: 20px 0;">{{ count }}</h2>
+
+  <ion-button size="large" (click)="count = count + 1">TAMBAH +1</ion-button>
+  <ion-button size="large" color="light" (click)="count = 0">Reset</ion-button>
+
+  <p style="margin-top:40px; opacity:0.5;">Made with Ionic + WebNative</p>
+</ion-content>
